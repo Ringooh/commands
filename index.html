@@ -5,141 +5,177 @@
     <meta name="description" content="Description goes here">
     <meta name="keywords" content="Discord Bot, Hu Tao, Aobuta, Game">
     <meta name="author" content="Shouko#4908">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#FF69B4">
 
-    <meta property="og:url" content="https://commands.github.io/">
+    <meta property="og:url" content="https://github.io/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Commands | Hu Tao Discord Bot">
-    <meta property="og:description" content="Check out all of Hu Tao's commands. Utilize Hu Tao's full capability as a Discord Bot.">
+    <meta property="og:title" content="Hu Tao | Discord Bot">
+    <meta property="og:description" content="A multifunctional Discord Bot - revolving around Hu Tao. Offers anime query, anime scheduler, leveling system, moderation system, and more!">
     <meta property="og:image" content="https://github.io/src/images/avatar-small.png">
     <meta property="og:site_name" content="github.io">
 
     <meta name="twitter:card" content="summary">
     <meta property="twitter:domain" content="github.io">
-    <meta property="twitter:url" content="https://github.io/guides">
-    <meta name="twitter:title" content="Commands | Hu Tao Discord Bot">
-    <meta name="twitter:description" content="Check out all of Hu Tao's commands. Utilize Hu Tao's full capability as a Discord Bot.">
+    <meta property="twitter:url" content="https://github.io/">
+    <meta name="twitter:title" content="Hu Tao | Discord Bot">
+    <meta name="twitter:description" content="A multifunctional Discord Bot - revolving around Hu Tao. Offers anime query, anime scheduler, leveling system, moderation system, and more!">
     <meta name="twitter:image" content="https://github.io/src/images/avatar-small.png">
 
     <link rel="icon" type="image/png" href="https://cdn.discordapp.com/emojis/833812360392867910.png?v=1" />
 
+    <!--Stylesheets-->
+
     <link rel="stylesheet" href="./src/css/main.css">
     <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <!--------------->
+    <title> Hu Tao | Discord Bot </title>
 
-    <script src="./src/js/jquery-3.5.1.js"></script>
-    <script src="./src/js/navigators.js"></script>
-    <script src="./src/js/index.js"></script>
-    <script src="./src/js/main.js"></script>
+    <script src="./src/javascript/jquery/jquery-3.5.1.js"></script>
+    <script src="./src/javascript/main.js"></script>
 
-    <title>Hu Tao Commands | Discord Bot </title>
   </head>
   <body>
-    <div class="main">
-      <nav class="nav-bar">
-        <div class="nav-bar-img">
-          <img src="./src/images/1626365863030.png" alt="">
-          <h1>HuTao</h1>
-        </div>
-        <div class="nav-bar-toggle">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <div class="nav-bar-links">
-          <ul>
-            <li><a href="https://ringooh.github.io/github.io/">HOME</a></li>
-            <li><a href="#">COMMANDS</a></li>
-            <li><a href="https://market.github.io/">MARKET</a></li>
-            <li><a href="https://invite.github.io/" target="_blank">INVITE</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="content-commands">
-        <div class="content-commands-container">
-          <div class="content-commands-column-1">
-            <h1>Prefix</h1>
-            <p>
-              Hu Tao's Default prefix starts with <code class="code-inline">h!</code> or <code class="code-inline">hutao</code>.
-              <br><br>
-              Commands are tagged based on required permissions for them to execute.
-              Commands marked as <span class="code-style-inline-red">Not for DM</span> cannot be used on Direct Messages.
-              Commands marked as <span class="code-style-inline-red">Admin</span> requires the Administrator Permissions from Discord.
-              Commands marked with <span class="code-style-inline-red" style="background-color: purple">purple</span> tags requires the respective permission it highlights.
-              Commands marked as <span class="code-style-inline-red" style="background-color: green">Everyone</span> does not require permissions.
-              <br><br>
-              Certain commands also requires to be configured before they are usable.
-              Commands tagged as <span class="code-style-inline-red">NSFW</span> requires the channel the command was used in to be of nsfw type.
-              Commands tagged as <span class="code-style-inline-red">Rank</span> requires the server's xp system to be enabled first.
-            </p>
-          </div><div class="content-commands-column-2">
-            <div class="content-commands-column-2-left">
-              <h1>Category</h1>
-              <div class="content-commands-expand">
-                <p> Expand / Hide all</p>
-                <div class="switch">
-                  <input type="checkbox" class="checkbox-expand">
-                  <span class="slider"></span>
-                </div>
-              </div>
-              <ul class="qa-menu-list">
-                <li data-li="action" class="col-2-btn active">Action</li>
-                <li data-li="anime" class="col-2-btn">Anime</li>
-                <li data-li="bot" class="col-2-btn">Bot</li>
-                <li data-li="core" class="col-2-btn">Core</li>
-                <li data-li="fun" class="col-2-btn">Fun</li>
-                <li data-li="moderation" class="col-2-btn">Moderation</li>
-                <li data-li="owner" class="col-2-btn">Owner</li>
-                <li data-li="setup" class="col-2-btn">Setup</li>
-                <li data-li="social" class="col-2-btn">Social</li>
-                <li data-li="utility" class="col-2-btn">Utility</li>
-              </ul>
+    <nav class="nav-bar">
+      <div class="nav-bar-img">
+        <img src="./src/images/1626365863030.png" alt="">
+        <h1>HuTao</h1>
+      </div>
+      <div class="nav-bar-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="nav-bar-links">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="https://ringooh.github.io/commands.io/">COMMANDS</a></li>
+          <li><a href="https://market.github.io">MARKET</a></li>
+          <li><a href="https://invite.github.io">INVITE</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="fade-in">
+        <div class="main-content">
+          <div class="main-content-children">
+            <div class="main-content-image">
+              <img src="./src/images/1626365863030.png" alt="">
             </div>
-            <div class="content-commands-column-2-right">
-              <div class="commands-search">
-                <input class="search-box" type="text" name="command" required="true" formnovalidate>
-                <label for="search" class="search-label">
-                  <span class="content-search"> Search </span>
-                </label>
-              </div>
-              <div class="commands" id="commands-list">
-                <div class="commands-still-loading"></div>
-                <div class="commands-loading-failed">
-                  <h1>Error: Unable to Load Commands</h1>
-                </div>
-              </div>
+          </div>
+          <div class="main-content-children">
+            <h1>Hu Tao</h1>
+            <p>A multifunctional discord bot</p>
+            <div class="main-content-buttons">
+              <li> <a href="https://support.github.io" target="_blank"> Support </a> </li>
+              <li> <a href="https://invite.github.io" target="_blank"> Invite </a> </li>
+              <li> <a href="https://github.io/guides"> Guide </a> </li>
             </div>
           </div>
         </div>
-      </div>
-      <div class="footer">
-        <div class="footer-information">
-          <h1>Hu Tao</h1>
-          <p>
-            © Copyright Hu Tao 2020-2021. All rights reserved <br>
-            This site is made by Shouko#4908
-          </p>
+        <div class="main-features">
+          <div class="wave-border"> </div>
+          <div class="feature-row">
+            <div class="feature-column">
+              <div class="feature-column-image">
+                <img src="./src/images/profile.png" alt="">
+              </div>
+            </div>
+            <div class="feature-column">
+              <h1>Show off your profile!</h1>
+              <p>Earn XP and credits and buy custom background, wallpapers, and more! Everything in this card is customizable</p>
+              <p>Visit <a href="./pages/market.html">Market</a> for more details!</p>
+            </div>
+          </div><div class="feature-row">
+            <div class="feature-column">
+              <h1>Track Airing Anime!</h1>
+              <p>Be notified of the current anime releases - right directly on your server! There's no limit on what you can add!</p>
+              <p>Visit <a href="#">Guides/Anischedule</a> for more details!</p>
+            </div>
+            <div class="feature-column">
+              <div class="feature-column-image">
+                <img src="./src/images/anischedule-sample.png" alt="">
+              </div>
+            </div>
+          </div><div class="feature-row last-row">
+            <div class="feature-column">
+              <div class="feature-column-image">
+                <img src="./src/images/chatbot-sample.png" alt="">
+              </div>
+            </div>
+            <div class="feature-column">
+              <h1>Chat with Hu Tao!</h1>
+              <p>Using a high-end chatbot api, you may chat with hu tao with almost human-precision response!</p>
+              <p>Begin by pinging her in your server!</p>
+            </div>
+          </div>
         </div>
-        <div class="footer-links">
-          <ul>
-            <li><a href="#">Back to Top</a></li>
-            <li><a href="https://ringooh.github.io/github.io/">Home</a></li>
-            <li><a href="https://market.github.io/">Market</a></li>
-            <li><a href="https://invite.github.io/" target="_blank">Invite</a></li>
-            <li><a href="https://guides.github.io/" target="_blank">Guides</a></li>
-          </ul>
+        <div class="featured-video">
+          <h1>Watch the Goddess Shine</h1>
+          <video src="./src/video/Hu Tao.mp4" controls>
+          </video>
+          <a class="gallery-btn" href="#">View Gallery</a>
+        </div>
+        <div class="main-links">
+          <div class="link-container">
+            <h1>Github</h1>
+            <p>Hu Tao is open-source! Check the code at github and contribute to develop hu tao more!</p>
+            <a href="https://github.com/Ringooh/hutao" target="_blank">
+              <div class="link-button">
+                Visit Repo!
+              </div>
+            </a>
+          </div>
+          <div class="link-container">
+            <h1>Vote Hu Tao</h1>
+            <p>Hu Tao is listed on top.gg and dbl! Show your support and vote Hu Tao! Leave a review while you're at it so that we know what to improve/develop!</p>
+            <a href="https://top.gg/bot/702074452317307061/vote" target="_blank">
+              <div class="link-button">
+                Do it!
+              </div>
+            </a>
+          </div>
+          <div class="link-container">
+            <h1>Support</h1>
+            <p>Be updated with upcoming releases, bug fixes, and contribute to the development of Hu Tao!</p>
+            <a href="https://support.github.io" target="_blank">
+              <div class="link-button">
+                Join Support Server!
+              </div>
+            </a>
+          </div>
+          <div class="link-empty-child"> </div>
+        </div>
+        <div class="footer">
+          <div class="footer-information">
+            <h1>Hu Tao</h1>
+            <p>
+              © Copyright Hu Tao 2020-2021. All rights reserved <br>
+              This site is made by Shouko#4908
+            </p>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Back to Top</a></li>
+              <li><a href="https://ringooh.github.io/commands.io/>Commands</a></li>
+              <li><a href="https://market.github.io/">Market</a></li>
+              <li><a href="https://invite.github.io/" target="_blank">Invite</a></li>
+              <li><a href="https://github.io/guides" target="_blank">Guides</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
     <a class="main-button-link" href="https://invite.github.io" target="_blank">
       <div class="invite-link">
-        <img src="https://cdn.discordapp.com/emojis/833812360392867910.png?v=1" alt="Add Hu Tao to your server">
-        <div class="overlay">
-          <div class="invite-text">
-            Invite!
-          </div>
+      <img src="https://cdn.discordapp.com/emojis/833812360392867910.png?v=1" alt="Add Hu Tao to your server">
+      <div class="overlay">
+        <div class="invite-text">
+          Invite!
         </div>
       </div>
-    </a>
+    </div>
+  </a>
   </body>
 </html>
